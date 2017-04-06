@@ -13,6 +13,10 @@
 	    <artifactId>taotao-manager-mapper</artifactId>
 	    <version>0.0.1-SNAPSHOT</version>
   	 </dependency>
+  	 <dependency>
+  	 	<groupId>junit</groupId>
+  	 	<artifactId>junit</artifactId>
+  	 </dependency>
   	 <!-- Spring -->
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -33,6 +37,10 @@
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-aspects</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-test</artifactId>
 		</dependency>
   </dependencies>
 </project>
