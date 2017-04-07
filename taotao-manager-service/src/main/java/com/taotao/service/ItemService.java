@@ -22,9 +22,10 @@ public interface ItemService {
 	EUDataGridResult getItemList(int page, int rows);
 	
 	/**
-	 * 添加商品， 返回结果
+	 * 添加商品、 商品描述， 返回结果
 	 * @param item
+	 * @param desc 商品描述
 	 * @return
 	 */
-	TaotaoResult createItem(TbItem item);
+	TaotaoResult createItem(TbItem item, String desc, String itemParam);
 }
