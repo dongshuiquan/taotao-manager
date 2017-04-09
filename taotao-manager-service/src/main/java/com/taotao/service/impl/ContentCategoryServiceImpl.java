@@ -57,6 +57,7 @@ public class ContentCategoryServiceImpl implements ContentCategoryService{
 		contentCategory.setCreated(new Date());
 		contentCategory.setUpdated(new Date());
 		contentCategoryMapper.insert(contentCategory); 
+		
 		//更新 parent
 		TbContentCategory parentCat = contentCategoryMapper.selectByPrimaryKey(parentId);
 		if(!parentCat.getIsParent()){
