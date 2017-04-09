@@ -43,5 +43,4 @@ public class ItemCatServiceImpl implements ItemCatService {
 		}
 		return resultList;
 	}
-
 }
