@@ -20,5 +20,6 @@
   	<module>taotao-manager-mapper</module>
   	<module>taotao-manager-service</module>
   	<module>taotao-manager-web</module>
+  	<module>taotao-sso</module>
   </modules>
 </project>
